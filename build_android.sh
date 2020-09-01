@@ -16,7 +16,7 @@ build_debug() {
 build_release() {
         echo "*********** Building Release Build **************"
         echo "----> Only building native. Not building crosswalk anymore due to compatibility issues <----------"
-        # App signining credentials in this file
+        # App signing credentials in this file
         NINJAKEYSTORE=~/personal/zmninja_keys/zmNinja.keystore
 
         if [ ! -f "$NINJAKEYSTORE" ]; then
